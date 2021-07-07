@@ -1,0 +1,13 @@
+﻿namespace CriptoMiningReports.Models
+{
+    public class CompleteApiObject
+    {
+        public Temperatures Temperatures { get; set; }
+        public MinerChart MinerChart { get; set; }
+        public Payment Payment { get; set; }
+        public Reward Reward { get; set; }
+        public Stats Stats { get; set; }
+        public Sumreward Sumreward { get; set; }
+        public Workers Workers { get; set; }
+    }
+}

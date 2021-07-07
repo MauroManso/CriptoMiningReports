@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using CriptoMiningReports.BackgroundTasks;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -31,6 +32,9 @@ namespace CriptoMiningReports
             {
                 c.SwaggerDoc("v1", new OpenApiInfo {Title = "CriptoMiningReports", Version = "v1"});
             });
+            
+            //Call the time hosted service
+            services.AddHostedService<TimedHostedService>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
