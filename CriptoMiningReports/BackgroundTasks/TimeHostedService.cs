@@ -39,7 +39,7 @@ namespace CriptoMiningReports.BackgroundTasks
             using var streamReader = new StreamReader(stream);
             var contentString = streamReader.ReadToEnd();
             var responseContentToObject = JsonConvert.DeserializeObject<ApiResponse>(contentString);
-            Console.WriteLine(responseContent);
+            Console.WriteLine(responseContentToObject);
         }
 
         public Task StopAsync(CancellationToken stoppingToken)

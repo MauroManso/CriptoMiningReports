@@ -2,7 +2,7 @@
 {
     public class CompleteApiObject
     {
-        public Temperatures Temperatures { get; set; }
+        public ApiResponse Temperatures { get; set; }
         public MinerChart MinerChart { get; set; }
         public Payment Payment { get; set; }
         public Reward Reward { get; set; }
