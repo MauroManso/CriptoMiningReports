@@ -270,3 +270,4 @@ __pycache__/
 # tools/
 CriptoMiningReports/obj/Debug/net5.0/CriptoMiningReports.assets.cache
 CriptoMiningReports/obj/rider.project.restore.info
+CriptoMiningReports/obj/CriptoMiningReports.csproj.nuget.g.props
