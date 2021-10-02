@@ -1,27 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\T-Gamer\\Documents\\Git\\CriptoMiningReports\\CriptoMiningReports\\CriptoMiningReports.csproj": {}
+    "C:\\Users\\guifg\\Documents\\GitHub\\CriptoMiningReports\\CriptoMiningReports\\CriptoMiningReports.csproj": {}
   },
   "projects": {
-    "C:\\Users\\T-Gamer\\Documents\\Git\\CriptoMiningReports\\CriptoMiningReports\\CriptoMiningReports.csproj": {
+    "C:\\Users\\guifg\\Documents\\GitHub\\CriptoMiningReports\\CriptoMiningReports\\CriptoMiningReports.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\T-Gamer\\Documents\\Git\\CriptoMiningReports\\CriptoMiningReports\\CriptoMiningReports.csproj",
+        "projectUniqueName": "C:\\Users\\guifg\\Documents\\GitHub\\CriptoMiningReports\\CriptoMiningReports\\CriptoMiningReports.csproj",
         "projectName": "CriptoMiningReports",
-        "projectPath": "C:\\Users\\T-Gamer\\Documents\\Git\\CriptoMiningReports\\CriptoMiningReports\\CriptoMiningReports.csproj",
-        "packagesPath": "C:\\Users\\T-Gamer\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\T-Gamer\\Documents\\Git\\CriptoMiningReports\\CriptoMiningReports\\obj\\",
+        "projectPath": "C:\\Users\\guifg\\Documents\\GitHub\\CriptoMiningReports\\CriptoMiningReports\\CriptoMiningReports.csproj",
+        "packagesPath": "C:\\Users\\guifg\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\guifg\\Documents\\GitHub\\CriptoMiningReports\\CriptoMiningReports\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\T-Gamer\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\guifg\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -40,9 +38,27 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[5.0.10, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
-              "version": "[5.6.3, )"
+              "version": "[6.2.2, )"
             }
           },
           "imports": [
@@ -63,7 +79,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     }
