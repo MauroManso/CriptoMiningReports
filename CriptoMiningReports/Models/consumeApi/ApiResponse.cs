@@ -1,10 +1,12 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 
-namespace CriptoMiningReports.Models
+namespace CriptoMiningReports.Models.consumeApi
 {
 
     public class ApiResponse
     {
+        public int id { get; set; }
         public long The24Hnumreward { get; set; }
         public long The24Hreward { get; set; }
         public long CurrentHashrate { get; set; }
@@ -23,10 +25,12 @@ namespace CriptoMiningReports.Models
         public long WorkersOffline { get; set; }
         public long WorkersOnline { get; set; }
         public long WorkersTotal { get; set; }
+        public DateTime? Date { get; set; }
     }
 
     public class MinerChart
     {
+        public int id { get; set; }
         public long MinerHash { get; set; }
         public long MinerLargeHash { get; set; }
         public string TimeFormat { get; set; }
@@ -36,6 +40,7 @@ namespace CriptoMiningReports.Models
 
     public class Payment
     {
+        public int id { get; set; }
         public long Amount { get; set; }
         public long Timestamp { get; set; }
         public string Tx { get; set; }
@@ -43,6 +48,7 @@ namespace CriptoMiningReports.Models
 
     public class Reward
     {
+        public int id { get; set; }
         public long Blockheight { get; set; }
         public long Timestamp { get; set; }
         public long RewardReward { get; set; }
@@ -54,6 +60,7 @@ namespace CriptoMiningReports.Models
 
     public class Stats
     {
+        public int id { get; set; }
         public long Balance { get; set; }
         public long Immature { get; set; }
         public long LastShare { get; set; }
@@ -63,6 +70,7 @@ namespace CriptoMiningReports.Models
 
     public class Sumreward
     {
+        public int id { get; set; }
         public long Inverval { get; set; }
         public long Reward { get; set; }
         public long Numreward { get; set; }
@@ -72,11 +80,13 @@ namespace CriptoMiningReports.Models
 
     public class Workers
     {
+        public int id { get; set; }
         public Eth10 Eth10 { get; set; }
     }
 
     public class Eth10
     {
+        public int id { get; set; }
         public long LastBeat { get; set; }
         public long Hr { get; set; }
         public bool Offline { get; set; }

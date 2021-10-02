@@ -1,4 +1,4 @@
-﻿namespace CriptoMiningReports.Models
+﻿namespace CriptoMiningReports.Models.consumeApi
 {
     public class CompleteApiObject
     {
